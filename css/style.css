@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
+h1, h2, h3 {
+  color: #1c6c74;
+  line-height: 1.2;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: 44px;
+}
+h3 {
+  color: #00acb3;
+  font-size: 26px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+h4 {
+  font-weight: 300;
+  font-size: 20px;
+}
+h5{
+  font-size: 15px;
+}
+nav.navbar {
+  border: none;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: black;
+}
+
+div.topbar {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  align-items: center;
+}
+
+header {
+  padding-top: 500px;
+  padding-bottom: 150px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  display: block;
+}
+
+header.fixedBackground {
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-color: #252830;
+}
+
+.classes-parent {
+  padding: 80px 0;
+  text-align: center;
+}
+.classes-parent.dark {
+  background-color: #252830;
+}
+
+.title{
+  text-align: center;
+  margin: 0 0 60px 0;
+}
+
+div.Row {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+}
+
+div.workout {
+  height: 230px;
+  box-shadow: 0 0 5px 2px #eee;
+  padding: 30px 0;
+  background-color: white;
+}
+
+.svgIcon {
+  width: 30%;
+}
+
+
+footer {
+  background-color: black;
+  width: 100%;
+  height: 150px;
+  bottom: 0px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+#footerMenu ul {
+  padding:0px;
+  margin:0px;
+  list-style:none;
+}
+
+#footerMenu ul li {
+  display: inline;
+  font-size: 35px;
+  padding-left: 10px;
+}
+
+#footerMenu ul li a:hover {
+  border-bottom:3px solid #05cdc6;
+  cursor: pointer;
+}
